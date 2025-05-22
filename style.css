@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+/* Estilo al contenedor */
+.contenedorP1{
+  background-color:gray ;
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  margin: 30px 50px;
+  width: 800px;
+  height: 150px;
+}
+
+
+/*-- Punto 1 ---*/
+.Boton{
+  margin: 10px 10px;
+  background-color: purple;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font: 16px "Times New roman";
+}
+.Boton:hover {
+  background-color: rgb(3, 15, 244);
+  transition: 0.5s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-- Punto 2 ---*/
+/* Estilo al contenedor */
+.contenedorP2{
+  background-color:gray ;
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  margin: 30px 50px;
+  width: 800px;
+  height: 150px;
+}
+/* Decoracion al boton del link*/
+a { 
+  background-color: purple;
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 10px 10px ;
+  text-decoration: none;
+  color: white;
+  margin: 10px 20px;
+  display: inline-block;
+}
+/* Resplucion del punto 2 */
+#MensajeO{
+  display: none;
+}
+
+#MensajeO:target{
+  display: block;
+  display: inline-block;
+  background-color: purple;
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 10px 10px ;
+}
