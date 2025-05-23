@@ -1,28 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Punto C</title>
 </head>
-
 <body>
-  <Div class="contenedorP1">
-    <h1>Crear un boton que Cambie de color cuando este en estado :Hover
-    </h1>
-    <button class="Boton">Cambie de Color</button>
-  </Div>
-  <Div class="contenedorP2">
-    <h1>Usa :target para mostrar un mensaje oculto al hacer clic en un enlace.
-    </h1>
-    <a href="#MensajeO" type="link">Cambiar al tocar</a>
-    <p id="MensajeO">Mensaje Oculto</p>
+  <div class="contenedorPrincipal">
+    <!-- <div class="contenedorP1">
+      <h1>Crear un boton que Cambie de color cuando este en estado :Hover</h1>
+      <button class="Boton">Cambie de Color</button>
+    </div>
 
-  </Div>
+    <div class="contenedorP2">
+      <h1>Usa :target para mostrar un mensaje oculto al hacer clic en un enlace.</h1>
+      <a href="#MensajeO">Cambiar al tocar</a>
+      <p id="MensajeO">Mensaje Oculto</p>
+    </div>
 
+    <div class="contenedorP3">
+      <h1>Da un estilo especial al primer hijo de un contenedor usando :first-child.</h1>
+      <div class="ContenedorLista">
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="contenedorP4">
+      <h1>Estiliza los campos de formulario no válidos usando :invalid.</h1>
+      <form class="form">
+        <label class="Email" for="email">Email
+          <input type="email" id="email" required>
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="contenedorP5">
+      <h1> Resalta solo los campos de tipo email con :type.		</h1>
+      <label for="email" class="email">Digite su Email
+        <input type="email" id="email" required>
+      </label>
+      <button  type="submit">Enviar</button>
+    </div>
+    <div class="contenedor6">
+      <h1>Diseña un formulario donde el campo activo (:focus) cambie de borde.</h1>
+      <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="nombre" placeholder="Escribe tu Nombre"><br><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea name="mensaje" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="contenedor">
+      <h1>Estiliza únicamente los elementos únicos de su tipo con :only-of-type.</h1>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre"><br><br>
+      <p>Este párrafo es único.</p>
+      <textarea placeholder="Este textarea es único"></textarea>
+      <!-- Agregamos dos botones para mostrar que no se aplica el estilo a los que no son únicos -->
+      <!-- <button>Enviar</button>
+      <button>Cancelar</button>
+    </div>
+    <section>
+    <p>Este es el primer párrafo de la sección (resaltado).</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Y este es el tercero.</p>
+    </section>
+
+    <section>
+      <p>Otro primer párrafo de una nueva sección (resaltado).</p>
+      <p>Otro párrafo más.</p>
+    </section>
+    <div class="contendorP9">
+      <h2>Usa :root para definir una variable de color y aplícala.</h2>
+      <p>Este párrafo usa un color definido en una variable CSS.</p>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <div>
+    <h2>Sección 1</h2>
+    <h2>Sección 2</h2>
+    <h2>Sección 3</h2> 
+  </div>
+    <div>
+      <h2>Sección 1</h2>
+      <h2>Sección 2</h2>
+      <h2>Sección 3</h2> 
+    </div> -->
+    <!-- <blockquote>
+      La única manera de hacer un gran trabajo es amar lo que haces.
+    </blockquote> -->
+    <!-- <div class="input-icon">
+      <input type="text" placeholder="Buscar...">
+    </div>
+    <div>
+      <p>Texto antes de la imagen.</p>
+      
+      <img src="https://via.placeholder.com/150" alt="Ejemplo" class="imagen-relativa">
+
+      <p>Texto después de la imagen.</p>
+    </div> -->
+    <!-- <div class="tarjeta">
+      <button class="btn-eliminar" aria-label="Eliminar tarjeta">&times;</button>
+      <h3>Tarjeta de ejemplo</h3>
+      <p>Este es el contenido de la tarjeta. Aquí puedes poner texto, imágenes o lo que necesites.</p>
+    </div> -->
+    <!-- <nav class="navbar-fija">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      </nav>
+
+    <div class="contenido">
+      <h1>Contenido de la página</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (mucho contenido para scroll)</p>
+      <p>Más contenido...</p>
+      <p>...</p>
+    </div> -->
+    <!-- <div class="caja caja1">Caja 1</div>
+    <div class="caja caja2">Caja 2</div> -->
+    <!-- <div class="card">
+      <h2>Tarjeta Centrada</h2>
+      <p>Esta card está centrada usando position y transform.</p>
+    </div> -->
+    <!-- <div class="card">
+      <h2>Tarjeta Centrada</h2>
+      <p>Esta card está centrada usando position y transform.</p>
+    </div> -->
+    <!-- <button onclick="document.body.classList.toggle('dark')">Cambiar tema</button>
+
+    <div class="contenedor">
+      <h1>Bienvenido</h1>
+      <p>Este es un sitio con soporte para tema oscuro.</p>
+    </div> -->
+    <!-- <div class="caja">
+      xto con variable y fallback</h2>
+    </div> -->
+    <div class="card">
+      <h2>Título de la tarjeta</h2>
+      <p>Este es un texto dentro de la tarjeta.</p>
+    </div>
+  </div>
 </body>
-
 </html>
